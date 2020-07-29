@@ -165,14 +165,18 @@ padding-bottom: 27px;
   background-color: #F5F4FA; 
 }
 
+.fotoborder
+{padding-bottom: 24px;
+  border-right: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  border-left;: 1px solid #E5E5E5 
+  border-radius: 4px;
+}
+
+
 .business-card {
   display: flex;
   flex-direction: column;
-  border-radius: 4px;
-  border: 1px solid #AFB1B8;
-  padding-bottom: 24px;
- 
-
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
 }
@@ -288,12 +292,19 @@ margin-right: 8px;
   flex-wrap: wrap;
 }
   .box-item{
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #EEEEEE;
+}
+
+.borderwork {
+padding-bottom: 20px;
+
+border-right: 1px solid #EEEEEE;
+border-bottom: 1px solid #EEEEEE;
+border-left: 1px solid #EEEEEE;
 }
 
 
